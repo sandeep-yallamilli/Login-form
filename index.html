@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap1.css">
+    <link rel="stylesheet" href="mdb.css">
+    <link rel="shortcut icon" href="logo.jpg">
+    <style>
+        .image{
+          background-image:url(city.jpeg);
+          background-size: cover;
+          border-radius: 40px;
+          box-shadow: 0 2px 20px black;
+        }
+       .image:hover {
+          transform: scale(1.1);
+        }
+        .icon{
+           margin-right:10px;
+           color:white;
+           font-size:15px;
+        }
+        a{
+          color:black;
+        }
+        .down{
+          margin-top: 150px;
+        }
+        body{
+          background-image: linear-gradient(to bottom, #ce18ab, #f72a73, #f96544, #e3972b, #bfbf45, #8ece6c, #57d79d, #00dbcd, #00ccf4, #00b7ff, #0096ff, #ac5ffb);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+        }
+        .img{
+          border-radius: 40px;
+          box-shadow: 0 2px 20px black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row down">
+             <div class="col-md-4 offset-md-2 border text-center bg-light img">
+                  <i class="fa fa-user fa-3x mt-3"></i>
+                  <h2>Signup</h2>
+                  <div class="col-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-user"></i></div>
+                      </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Full Name">
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-envelope"></i></div>
+                      </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Email address">
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-lock"></i></div>
+                      </div>
+                      <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="password">
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-lock"></i></div>
+                      </div>
+                      <input type="password" class="form-control" id="inlineFormInputGroup" placeholder="Confirm Password">
+                    </div>
+                  </div>
+                  
+                   <div class="form-check mb-2 mr-sm-2 mt-3">
+                   <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                   <label class="form-check-label" for="inlineFormCheck">
+                     Remember me
+                   </label>
+                   </div>
+                   <div class="container text-center p-3">
+                     <button class="btn btn-success badge-pill">Signup</button>
+                   </div>
+                   <div>
+                     <p>Already have an account? <a href="index1.html">Sign In</a></p>
+                   </div>
+                   
+             </div>
+             <div class="col-md-4 border text-center image">
+                <h2 class="mt-3 text-white">Sign In With<br>Social Media<br></h2>
+
+                <button class="btn btn-primary mt-5"><a href="#"><i class=" icon fa fa-facebook"></i>Facebook </button></a><br>
+                <button class="btn btn-warning mt-2"><a href="#"><i class=" icon fa fa-instagram"></i>Instagram</button></a><br>
+                <button class="btn btn-danger mt-2"><a href="#"><i class=" icon fa fa-google"></i>Google</button></a>   
+             </div>
+        </div>
+    </div>
+    
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="mdb.js"></script>
+</body>
+</html>
